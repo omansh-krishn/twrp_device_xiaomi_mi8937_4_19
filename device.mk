@@ -10,7 +10,7 @@ MITHORIUM_INCLUDE_CRYPTO_FDE := true
 MITHORIUM_LEGACY_CRYPTO := true
 
 # Inherit from mithorium-common
-$(call inherit-product, device/xiaomi/mithorium-common/mithorium.mk)
+$(call inherit-product, device/xiaomi/mithorium-common-4.19/mithorium.mk)
 
 # Dynamic Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
