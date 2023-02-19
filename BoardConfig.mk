@@ -7,7 +7,7 @@
 # Inherit from common mithorium-common
 include device/xiaomi/mithorium-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/xiaomi/mi8937
+DEVICE_PATH := device/xiaomi/mi8937_4_19
 
 # Kernel
 TARGET_PREBUILT_KERNEL := device/xiaomi/kernel-mithorium/mi8937/Image.gz-dtb
