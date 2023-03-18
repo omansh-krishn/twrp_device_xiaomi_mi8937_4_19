@@ -9,6 +9,9 @@ PRODUCT_RELEASE_NAME := mi8937_4_19
 # Inherit from mi8937_4_19 device
 $(call inherit-product, device/xiaomi/mi8937_4_19/device.mk)
 
+# Inherit common product files.
+$(call inherit-product, vendor/pb/config/common.mk)
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := $(PRODUCT_RELEASE_NAME)
 PRODUCT_NAME := twrp_$(PRODUCT_RELEASE_NAME)
